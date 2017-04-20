@@ -114,18 +114,8 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="303"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Here's how it works." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="llk-o5-BR9">
-                                                    <rect key="frame" x="20" y="34" width="242" height="42"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="42" id="X1R-tN-VcG"/>
-                                                        <constraint firstAttribute="width" constant="242" id="xFa-hb-LsB"/>
-                                                    </constraints>
-                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="26"/>
-                                                    <color key="textColor" red="0.85262387990951538" green="0.1352078914642334" blue="0.19374611973762512" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="255" translatesAutoresizingMaskIntoConstraints="NO" id="KjQ-39-cIu" userLabel="Not Enrolled - Details">
-                                                    <rect key="frame" x="20" y="90" width="357" height="181"/>
+                                                    <rect key="frame" x="20" y="95" width="357" height="181"/>
                                                     <attributedString key="attributedText">
                                                         <fragment content=" •">
                                                             <attributes>
@@ -293,13 +283,23 @@ IAo
                                                     </attributedString>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Here's how it works." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="llk-o5-BR9">
+                                                    <rect key="frame" x="29" y="34" width="242" height="42"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="42" id="X1R-tN-VcG"/>
+                                                        <constraint firstAttribute="width" constant="242" id="xFa-hb-LsB"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="26"/>
+                                                    <color key="textColor" red="0.85262387990951538" green="0.1352078914642334" blue="0.19374611973762512" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <color key="backgroundColor" red="0.93715304136276245" green="0.93731355667114258" blue="0.93714290857315063" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
                                                 <constraint firstItem="llk-o5-BR9" firstAttribute="top" secondItem="iMU-JZ-fTl" secondAttribute="topMargin" constant="26" id="2Qe-8M-iCj"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="KjQ-39-cIu" secondAttribute="bottom" constant="24" id="3Oz-uz-BcN"/>
-                                                <constraint firstItem="KjQ-39-cIu" firstAttribute="top" secondItem="llk-o5-BR9" secondAttribute="bottom" constant="14" id="HUB-Cd-I4g"/>
-                                                <constraint firstItem="llk-o5-BR9" firstAttribute="leading" secondItem="iMU-JZ-fTl" secondAttribute="leadingMargin" constant="12" id="NO3-W7-zWB"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="KjQ-39-cIu" secondAttribute="bottom" constant="19" id="3Oz-uz-BcN"/>
+                                                <constraint firstItem="KjQ-39-cIu" firstAttribute="top" secondItem="llk-o5-BR9" secondAttribute="bottom" constant="19" id="HUB-Cd-I4g"/>
+                                                <constraint firstItem="llk-o5-BR9" firstAttribute="leading" secondItem="iMU-JZ-fTl" secondAttribute="leadingMargin" constant="21" id="NO3-W7-zWB"/>
                                                 <constraint firstItem="KjQ-39-cIu" firstAttribute="leading" secondItem="iMU-JZ-fTl" secondAttribute="leadingMargin" constant="12" id="jvw-G5-fGi"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="KjQ-39-cIu" secondAttribute="trailing" constant="29" id="lcm-K1-aOP"/>
                                             </constraints>
